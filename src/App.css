@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +35,102 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.logo img{
+  height: 50px;
+  width: 50px;
 }
+.header{
+  color: #282c34;
+}
+.pages a{
+  color: #282c34 !important;
+}
+.pages button{
+  border: 1px solid #d5c91dc8 !important;
+}
+.image img{
+  width: 1500px;
+}
+.carousel-caption {
+  position: absolute;
+  z-index: 1;
+  display:table;
+  width:100%;
+  height:100%;
+}
+
+.absolute-div {
+  position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.carousel-caption h3 {
+  display:table-cell;
+  vertical-align: middle;
+  text-align:center;
+  color: #958113;
+  display: flex;
+  margin: 250px 100px 0 350px;
+  font-size: 30px;
+}
+.carousel-caption h2{
+  font-weight: bold;
+  font-size: 50px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 20px 350px 0 0;
+}
+.carousel-caption h6{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 50px 350px 0 0;
+}
+.carousel-footer{
+  margin-top: 60px;
+}
+.carousel-footer button{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-right: 350px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  border-top-width: 50%;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+.about-image img{
+  height: 400px;
+  width: 600px;
+  margin: 50px 0 30px 150px;
+}
+.about-content{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.about-content h2{
+  margin: 40px 400px 0 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.about-content h2::before{
+  content: "";
+  height: 2px;
+  background-color: gold;
+  display: block;
+  align-items: center;
+  position: relative;
+  top: 20px;
+  left: 320px;
+}
+.about-content h1{
+  font-size: 50px;
+  font-weight: bold;
+  color: gold;
+  margin: 10px;
+}
+
